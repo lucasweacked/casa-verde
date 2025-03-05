@@ -1,0 +1,30 @@
+.cabecalho {
+    padding: 0.5% 15%;
+}
+
+.cabecalho__conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.cabecalho__conteudo__links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.cabecalho__conteudo__links-link {
+    list-style: none;
+}
+
+.cabecalho__conteudo__links-link a,
+span {
+    font-family: var(--fontPrincipal);
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--corPreto);
+    text-decoration: none;
+}
